@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: lightblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body style="background-color:grey;">
+
+<div class="about-section">
+  <h1 style="color:red;">Adoption Puppies</h1>
+  <h3>itsPAWsible is small & growing animal organisation.</h3>
+  <p>Hello, our team has kept only 3-8 month puppies for adoption. We hope that these puppies will get to meet great humans who will love & care them as much.</p>
+  <p>Even now these puppies are being loved and cared by us, but we want them to have a permanent home. We hope that you make a firm decision.</p>
+</div>
+
+<h2 style="text-align:center">Dogs for adoption.</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+      <div class="container">
+		<img src="p9.jpg" alt="dog" height="160x" width="250"/>
+        <p class="title" style="color:black;">MICK</p>
+        <p>Hi, I'm Mick and I'm 3 month old puppy, also done with my first vacation.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="/w3images/team2.jpg" alt="Mike" style="width:100%">-->
+      <div class="container">
+		<img src="p7.jpg" alt="dog" height="160x" width="250"/>
+        <p class="title" style="color:black;">TOFU & JAY</p>
+        <p>Hi, we are brothers and we're 4 month old puppies, also done with our first two vacations.</p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <!--<img src="/w3images/team2.jpg" alt="Mike" style="width:100%">-->
+      <div class="container">
+		<img src="p8.jpg" alt="dog" height="160x" width="250"/>
+        <p class="title" style="color:black;">Sweetie</p>
+        <p>Hi, I'm Sweetie and I'm 6 month old puppy, also done with my vacation.</p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <!--<img src="/w3images/team2.jpg" alt="Mike" style="width:100%">-->
+      <div class="container">
+		<img src="p3.jpg" alt="dog" height="160x" width="250"/>
+        <p class="title" style="color:black;">Roger</p>
+        <p>Hi, I'm Roger and I'm 4 month old puppy, also done with my first vacation.</p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <!--<img src="/w3images/team2.jpg" alt="Mike" style="width:100%">-->
+      <div class="container">
+		<img src="p6.jpg" alt="dog" height="160x" width="250"/>
+        <p class="title" style="color:black;">Raji</p>
+        <p>Hi, I'm Raji and I'm 2 month old puppy, also done with my first vacation.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
